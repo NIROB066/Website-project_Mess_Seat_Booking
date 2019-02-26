@@ -1,0 +1,145 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#main {
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+    background: -webkit-linear-gradient(top,#ffffff,#00ffff);
+}
+
+#maindiv {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+    background: -webkit-linear-gradient(top,#214e02,#4cff00);
+    height: 194px;
+    margin-bottom:10px;
+    -webkit-transition: -webkit-transform 2s, background 2s;
+    overflow: hidden;
+}
+
+    #maindiv:hover {
+        background: -webkit-linear-gradient(top,green,white);
+    }
+
+#loginlogout {
+    display: -webkit-box;
+    -webkit-box-pack: end;
+    -webkit-box-orient: horizontal;
+}
+
+
+
+#topheader {
+    -webkit-box-flex: 1;
+    text-align: center;
+    font: bold 14px Tahoma;
+    height: 100px;
+    color: white;
+    -webkit-box-orient: horizontal;
+}
+
+#mainmenu {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+
+ul {
+    list-style: none;
+    height: 30px;
+}
+
+    ul li {
+        background-color: green;
+        margin-left: 3px;
+        margin-right: 3px;
+        height: 30px;
+        text-align: center;
+        color: white;
+        font: blod 10px Tahoma;
+    }
+
+        ul li ul li {
+            margin: 0px;
+            padding: 0px;
+            display: block;
+        }
+
+        ul li ul {
+            width: 231px;
+            margin-right: 10px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+#problem_solving {
+    position: absolute;
+}
+
+#div1 {
+    -webkit-box-flex: 1;
+}
+
+#div2 {
+    -webkit-box-flex: 1;
+}
+
+#div3 {
+    -webkit-box-flex: 1;
+}
+
+#div4 {
+    -webkit-box-flex: 1;
+}
+
+#div0 {
+    -webkit-box-flex: 1;
+}
+
+#div5 {
+    -webkit-box-flex: 1;
+}
+
+ul li:hover {
+    background-color: #4a0617;
+    font: blod 16px Tahoma;
+    display: block;
+    text-transform: uppercase;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+
+#moving_Text {
+    font: bold 20px Tahoma;
+    color:black;
+    margin-bottom: 5px;
+}
+
+#textshadow {
+    text-shadow: black 3px 5px 5px;
+}
+
+#big_wrapper {
+    height: 1000px;
+    display: block;
+    width: 100%;
+}
+
+.cng1 {
+    font: bold 16px Tahoma;
+}

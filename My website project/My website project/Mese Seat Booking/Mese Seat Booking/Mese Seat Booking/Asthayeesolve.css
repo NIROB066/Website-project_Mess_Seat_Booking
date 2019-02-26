@@ -1,0 +1,247 @@
+﻿#mess_info {
+    margin-left: 170px;
+    margin-right: 170px;
+    display: -webkit-box;
+    -webkit-box-align: start;
+    -webkit-box-orient: horizontal;
+    margin-bottom: 10px;
+}
+
+#room_info {
+    -webkit-box-align: center;
+    -webkit-box-orient: vertical;
+    padding: 20px;
+    width: 450px;
+    height: 300px;
+    background: -webkit-linear-gradient(top,#ffffff,#a6ff8c);
+    -webkit-transition: -webkit-transform 2s, background 2s;
+    -webkit-border-radius: 5px;
+    margin-right: 10px;
+}
+
+    #room_info:hover {
+        background: -webkit-linear-gradient(top,#a6ff8c,#ffffff);
+    }
+
+#room {
+    margin-bottom: 10px;
+}
+
+#room_margin {
+    border-bottom: 3px solid #03284b;
+    margin-bottom: 20px;
+}
+#margin {
+    border-bottom: 3px solid #03284b;
+    margin-bottom: 40px;
+}
+
+.roomh1 {
+    font: bold 26px Tahoma;
+    color: #3d0202;
+    text-shadow: #cbf3f2 3px 5px 5px;
+}
+
+#room_main {
+    -webkit-box-align: start;
+    -webkit-box-orient: vertical;
+}
+
+
+
+.fst_part {
+    font: bold 18px Tahoma;
+    color: #ff0000;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-shadow: white 1px 5px 5px;
+}
+._part {
+    font: bold 20px Tahoma;
+    color: #ff0000;
+    float: left;
+    margin-left: 90px;
+    margin-bottom: 15px;
+    text-shadow: white 1px 5px 5px;
+}
+#ownertalk {
+    font: bold 22px Tahoma;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.fst2_part {
+    font: bold 16px Tahoma;
+    color: #ff0000;
+    float: left;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-shadow: white 1px 5px 5px;
+}
+
+.snd2_part {
+    font: bold 14px Tahoma;
+    color: #2b0000;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-shadow: white 1px 5px 5px;
+}
+
+.snd_part {
+    font: bold 14px Tahoma;
+    color: #2b0000;
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-shadow: white 1px 3px 3px;
+}
+.s_part {
+    font: bold 18px Tahoma;
+    color: #2b0000;
+    float: right;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    text-shadow: white 1px 3px 3px;
+}
+
+#owner_pic {
+    -webkit-box-align: center;
+    -webkit-box-orient: vertical;
+    width: 300px;
+    margin-right: 10px;
+    display: -webkit-box;
+    margin-left: 10px;
+    overflow: hidden;
+    background: -webkit-linear-gradient(45deg,#a6ff8c,#ffffff);
+}
+
+#owph {
+    -webkit-box-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#owpic_h1 {
+    font: bold 24px Tahoma;
+    color: black;
+    text-shadow: #808080 1px 3px 3px;
+}
+
+#o_pic {
+    height: 350px;
+    width: 300px;
+}
+
+
+#abt_o {
+    -webkit-box-flex: 1;
+    background: -webkit-linear-gradient(90deg,#ffffff,#e8faac);
+    padding: 10px;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+}
+
+#abt_h1 {
+    font: bold 26px Tahoma;
+}
+
+#abth {
+    margin-bottom: 10px;
+}
+
+#o_margin {
+    border: 2px solid #3d0202;
+    margin-bottom: 10px;
+}
+
+#abt_o:hover {
+    background: -webkit-linear-gradient(45deg,#ffffff,#e8faac);
+}
+
+#booking_div {
+    display: -webkit-box;
+    -webkit-box-pack: start;
+    -webkit-box-orient: horizontal;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+#booking {
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+    width: 300px;
+    background: -webkit-linear-gradient(45deg,wheat,white);
+    padding: 20px;
+    -webkit-border-radius: 10px;
+}
+
+#booking_header {
+    margin-bottom: 10px;
+}
+
+#bookingH1 {
+    font: bold 26px Tahoma;
+    color: #2b0000;
+}
+
+#marg {
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+#Booking_button {
+    padding: 5px;
+    width: 100px;
+    font: bold 22px Tahoma;
+    -webkit-border-radius: 10px;
+    float: left;
+    background: #ffffff;
+    color: #3d0202;
+}
+
+.slide {
+    height: 280px;
+    -webkit-box-flex: 1;
+    overflow: hidden;
+    width: 510px;
+}
+
+#img_header {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#imgh1 {
+    font: bold 26px Tahoma;
+}
+
+#img_div {
+    -webkit-box-flex: 1;
+    background: -webkit-linear-gradient(90deg,#ffffff,#00ff90);
+    height: 340px;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+}
+
+#img_k {
+}
+
+#footer_div {
+    background: #025f74;
+}
+
+#the_footer {
+    border-top: 5px solid black;
+    display: block;
+}
+
+#footer_p {
+    font: bold 16px Tahoma;
+    color: white;
+}
